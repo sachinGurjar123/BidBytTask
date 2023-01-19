@@ -1,27 +1,20 @@
-import React from 'react';
-import TopBar from '../../components/ToPSearchBar';
-import TopSlider from '../../components/TopSlider.js';
-import SmallProduct from '../../components/category';
-import { Div } from '../../style';
-import Recommended from '../../components/ Recommended For You';
-import NewOnBidBy from '../../components/New On BidByt';
-import FoodCard from '../../components/foodCard';
-import Footer from '../../components/Footer';
+import React from "react";
+import TopBar from "../../components/topSearchbar";
+import TopSlider from "../../components/topSlider";
+import SmallProduct from "../../components/category";
+import Recommended from "../../components/ recommended";
+import NewOnBidBy from "../../components/bidbyt";
+import FoodCard from "../../components/foodCard";
+import Footer from "../../components/footer";
+import { Div } from "../../style";
 
 const Home = () => (
   <Div>
     <TopBar />
     <TopSlider />
-    <Div>
-      <SmallProduct />
-    </Div>
-
-    <Div>
-      <Recommended />
-    </Div>
-    <Div>
-      <NewOnBidBy />
-    </Div>
+    <SmallProduct />
+    <Recommended />
+    <NewOnBidBy />
     <FoodCard />
     <Footer />
   </Div>

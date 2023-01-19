@@ -1,14 +1,14 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
-export const TopDiv1 = styled.div`
+export const BottomImg = styled.div`
   display: flex;
   justify-content: start;
 `;
-export const TopDiv2 = styled.div`
+export const BottomText = styled.div`
   display: grid;
   grid-template-columns: 2fr 1fr 1fr;
 `;
-export const Box1 = styled.div`
+export const BottomBoxDiv = styled.div`
   text-align: center;
   // height: 500px;
   width: 100%;
@@ -16,7 +16,7 @@ export const Box1 = styled.div`
   padding: 10px;
   margin-bottom: 80px;
 `;
-export const Box2 = styled.div`
+export const PagesBox = styled.div`
   display: flex;
   color: gray;
   width: 45%;
@@ -38,13 +38,13 @@ export const Span = styled.div`
   align-items: center;
   text-align: center;
 `;
- export const Box3 = styled.div`
-text-align: center;
-// height: 500px;
-width: 100%;
-background-color: white;
-box-shadow: 0 7px 15px 5px rgb(0 0 0 / 10%);
-border-radius: 15px;
-padding: 10px;
-margin-bottom: 80px;
+export const Box3 = styled.div`
+  text-align: center;
+  // height: 500px;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 7px 15px 5px rgb(0 0 0 / 10%);
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 80px;
 `;

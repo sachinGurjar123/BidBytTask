@@ -2,10 +2,10 @@ import React from 'react';
 import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import EmojiEventsOutlinedIcon from '@mui/icons-material/EmojiEventsOutlined';
 import Person2OutlinedIcon from '@mui/icons-material/Person2Outlined';
-import { Box2, Span } from './style';
+import { PagesBox, Span } from './style';
 
 const FooterPages = () => (
-  <Box2>
+  <PagesBox>
     <Span
       style={{
         color: 'red',
@@ -23,7 +23,7 @@ const FooterPages = () => (
     <Span>
       <Person2OutlinedIcon style={{ fontSize: '40px' }} />
     </Span>
-  </Box2>
+  </PagesBox>
 );
 
 export default FooterPages;

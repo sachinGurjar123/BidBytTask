@@ -8,12 +8,12 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import { Div, Heart, Status, Status2 } from './style';
 
 const FoodCard = ({
-  src = '',
-  title = 'Hello',
+  src = 'N/A',
+  title = 'N/A',
   price = 10,
-  description = 'adsasdsad',
-  name = 'sad',
-  day = 'sad'
+  description = 'N/A',
+  name = 'N/A',
+  day = 'N/A'
 }) => (
   <>
     <Div>
