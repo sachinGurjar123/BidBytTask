@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-import { newOnBidByItem } from "../../data";
-import { Div, Title } from "../../style";
+import { newOnBidByItem } from "~/data";
+import { Div, Title } from "~/style";
 import FoodCard from "./NewOnBidBytComponent";
 
 const settings = {

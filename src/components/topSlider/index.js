@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-import { TopSliderImages } from "../../data";
-import { Div } from "../../style";
+import { TopSliderImages } from "~/data";
+import { Div } from "~/style";
 import { Box, Img } from "./styled";
 const TopSlider = () => {
   var settings = {

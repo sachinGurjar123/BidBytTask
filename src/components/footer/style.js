@@ -38,7 +38,7 @@ export const Span = styled.div`
   align-items: center;
   text-align: center;
 `;
-export const Box3 = styled.div`
+export const TopBoxDiv = styled.div`
   text-align: center;
   // height: 500px;
   width: 100%;

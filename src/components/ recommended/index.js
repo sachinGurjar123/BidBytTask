@@ -1,7 +1,7 @@
 import React from "react";
 import Slider from "react-slick";
-import { recommendedItems } from "../../data";
-import { Div, Title } from "../../style";
+import { recommendedItems } from "~/data";
+import { Div, Title } from "~/style";
 import RecommendedComponent from "./RecommendedComponent";
 
 const settings = {

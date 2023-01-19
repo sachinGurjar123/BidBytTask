@@ -1,8 +1,8 @@
 import React from "react";
 import CategoryComponent from "./CategoryComponent";
 import Slider from "react-slick";
-import { categoryItems } from "../../data";
-import { Div } from "../../style";
+import { categoryItems } from "~/data";
+import { Div } from "~/style";
 
 const settings = {
   slidesToShow: 6,
