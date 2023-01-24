@@ -42,6 +42,7 @@ const FilterOffCanContant = () => {
         </span>
       </p>
       <p>Tags</p>
+      
     </div>
   );
 };

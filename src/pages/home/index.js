@@ -8,6 +8,7 @@ import FoodCard from "~/components/foodCard";
 import Footer from "~/components/footer";
 import { Div } from "~/style";
 
+
 const Home = () => (
   <Div>
     <TopBar />

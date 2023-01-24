@@ -1,7 +1,7 @@
-import React from 'react';
-import styled from 'styled-components';
-import { FoodCardItems } from '~/data';
-import FoodCardComponent from './FoodCardComponent';
+import React from "react";
+import styled from "styled-components";
+import { FoodCardItems } from "~/data";
+import FoodCardComponent from "./FoodCardComponent";
 const Div = styled.div`
   display: flex;
   flex-direction: column;
